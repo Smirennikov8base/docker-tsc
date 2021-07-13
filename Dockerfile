@@ -1,3 +1,3 @@
-FROM node:16-alpine
+FROM node:12.18
 
-RUN npm install -g typescript
+RUN npm install -g typescript@4.3.5
